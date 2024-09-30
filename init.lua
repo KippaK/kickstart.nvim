@@ -302,7 +302,7 @@ require('lazy').setup({
     -- after the plugin has been loaded:
     --  config = function() ... end
 
-    {                   -- Useful plugin to show you pending keybinds.
+    {                       -- Useful plugin to show you pending keybinds.
         'folke/which-key.nvim',
         event = 'VimEnter', -- Sets the loading event to 'VimEnter'
         config = function() -- This is the function that runs, AFTER loading
@@ -872,7 +872,7 @@ require('lazy').setup({
     --
     --  Uncomment the following line and add your plugins to `lua/custom/plugins/*.lua` to get going.
     --    For additional information, see `:help lazy.nvim-lazy.nvim-structuring-your-plugins`
-    -- { import = 'custom.plugins' },
+    { import = 'custom.plugins' },
 }, {
     ui = {
         -- If you are using a Nerd Font: set icons to an empty table which will use the
